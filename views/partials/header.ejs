@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="popupS.js"></script>
+    <title>Document</title>
+
+
+
+    <script type="text/javascript">
+      function deleteConfirmation() {
+        var delOne = confirm("Are you sure? you want to delete you account!")
+        if(delOne){
+          var delTwo = confirm('All your posts and comments will Also be deleted! Please confirm.');
+          if(delTwo){
+            var delThree = confirm('This is the last warning, this process is not reversible. DELETE ACCOUNT?')
+            if(delThree){
+              return true;
+            }
+            else{
+              return event.preventDefault();
+            }
+          }
+          else{
+             return event.preventDefault();
+          }
+        }
+        else{
+            return event.preventDefault();
+        }
+      }
+
+
+      function basicConfirmation(message){
+        var result = confirm( message +" ? Are you sure ?");
+        if(result){
+          console.log("CONFIRMED NOW!!");
+          return true;
+          
+        }
+        else{
+          console.log("NOT CONFIRMED!!")
+          return event.preventDefault();
+        }
+      }
+
+      function basicErrorMessagePrint(message){
+        return alert(message);
+      }
+
+      
+    popupS.alert({
+        content: 'Hello World!'
+    });
+
+      </script>
+
+</head>
+<body>
+
+    <div class="header-nav">
+        <nav>   
+         <ul class="my-navbar-list">
+            <a href="/posts">         <li class="logo-header nav-li"> HOME</li>    </a> 
+            <a href="/posts/compose">  <li class="nav-li">             COMPOSE</li>    </a> 
+            <a href="/user/profile"> <li class="nav-li">             PROFILE</li>    </a>
+            <a href="/user/myposts">   <li class="nav-li">             MY BLOGS</li>  </a>
+           <a href="/user/logout">   <li class="nav-li">             LOGOUT</li>     </a>
+          </ul>
+        </nav>
+      </div>  

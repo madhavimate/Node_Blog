@@ -1,0 +1,22 @@
+<%- include("partials/header"); -%>
+
+<h1 style="text-align:center">REGISTER</h1>
+<div class= "visible-background">
+
+     
+     <div class="google-auth">
+          <a href="/auth/google"><i class="fa fa-google fa-lg" aria-hidden="true"></i> &nbsp; Sign in/up with Google</a>
+     </div>
+     
+
+    <form action="/user/register" method="post">
+         <input  class="input-title" type="text" name="username" placeholder="Select Username " ><br>
+         <input  class="input-title" type="text" name="fullName" placeholder="Full Name here" ><br>
+         <input  class="input-title" type="email" name="email"    placeholder="Email here" ><br>
+         <input  class="input-title" type="password" name="password" placeholder="Password here" ><br>
+         <button type="submit">Sign Up</button>
+    </form>
+     <a href="/user/login"><button>Already a User ?</button></a>
+</div>
+
+<%- include("partials/footer"); -%>

@@ -1,0 +1,17 @@
+<%- include("partials/header"); -%>
+<h1 style="text-align:center">PROFILE DETAILS</h1>
+
+
+<div class="visible-background" style="padding:  40px">
+    <span class="span-h3">Username: </span > <span style="font-family:'Ubuntu', sans-serif; font-size:1.2rem;"><%= userObject.username %></span> <br>
+    <span class="span-h3">Name: </span> <span style="font-family:'Ubuntu', sans-serif; font-size:1.2rem;"><%= userObject.fullName%></span> <br>
+    <span class="span-h3">User since:</span> <span style="font-family:'Ubuntu', sans-serif; font-size:1.2rem;"><%= userObject.createdOn %></span> <br>
+    <a href="/user/delete" ><button onClick="deleteConfirmation()">DELETE</button></a>
+    <a href="/user/edit" ><button>EDIT</button></a>
+</div>
+
+
+
+
+
+<%- include("partials/footer"); -%>

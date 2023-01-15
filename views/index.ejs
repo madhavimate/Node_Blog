@@ -1,0 +1,47 @@
+<%- include("partials/header"); -%>
+
+
+<h1 style="text-align:center">INDEX PAGE</h1>
+
+
+
+<!-- pass blogArray as blogArray -->
+
+<div class="flex-container">
+<% for( var i=0;i<blogArray.length;++i){ %>
+
+
+    <%# console.log(blogArray[i]); %>  
+    
+
+    <!-- below is each of the flex-item --> 
+
+
+     <div class="flex-items">
+                        <div class="card-heading">
+                            <%= blogArray[i].textfield.blogTitle %>
+                        </div>
+                        <div class="card-author"> ~ <%= blogArray[i].author.fullName %></div>
+                        <div class="card-content">
+                            <%= blogArray[i].textfield.blogContent %>
+                        </div>
+                        <div class="card-buttons">
+                           
+                            <a href="posts/<%=blogArray[i]._id  %>"><button>Read more</button></a>
+                            
+                        </div>
+      </div> 
+          
+
+
+
+
+<% } %>
+    </div>
+
+
+
+
+
+
+<%- include("partials/footer"); -%>
