@@ -30,7 +30,6 @@
     </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -135,15 +134,6 @@ Contributions are what make the open source community such an amazing place to b
 - LinkedIn : [Madhavi Mate][linkedin-url]
 - Project Link: [https://github.com/madhavimate/Node_Blog](https://github.com/madhavimate/Node_Blog)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* [EJS](https://ejs.co/)
-* [Font Awesome](https://fontawesome.com/)
-* [Passport.js](http://www.passportjs.org/)
-* [Dribble](https://dribbble.com/)
-* [Mongoose](https://mongoosejs.com/)
-* [Nodemon](https://nodemon.io/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
