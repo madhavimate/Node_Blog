@@ -5,9 +5,6 @@
   <p align="center">
     A project to make blogging web app with authentication.  
     <br />
-    <a href="https://github.com/joat28/Node-Blog/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/joat28/Node-Blog/issues">Request Feature</a>
   </p>
 </p>
 
@@ -136,7 +133,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Contact
 
 - LinkedIn : [Madhavi Mate][linkedin-url]
-- Project Link: [https://github.com/joat28/Node-Blog](https://github.com/joat28/Node-Blog)
+- Project Link: [https://github.com/madhavimate/Node_Blog](https://github.com/madhavimate/Node_Blog)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
